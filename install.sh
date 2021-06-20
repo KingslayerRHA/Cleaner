@@ -8,4 +8,5 @@ pip install os
 pip install sys
 pip install PySimpleGUI
 pip install gc
+chmod +x cleaner.py
 echo 'Done!';
