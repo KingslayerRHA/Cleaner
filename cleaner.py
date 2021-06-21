@@ -31,6 +31,7 @@ while True:
         os.system('sudo -i')
         os.system('sync; echo 3 > /proc/sys/vm/drop_caches')
         os.system('swapoff -a && swapon -a')
+        os.system('sync; echo 1 > /proc/sys/vm/drop_caches')
         break
     time.sleep(1)
     print(sys._clear_type_cache())
